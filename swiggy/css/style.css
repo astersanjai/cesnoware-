@@ -1,0 +1,240 @@
+﻿.container-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(236, 96, 8);
+}
+
+.catagery {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.categery-box {
+    width: 80%;
+    height: 450px;
+    
+    margin: auto;
+}
+
+.categery-box .categery-image {
+    width: 12%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 12px;
+}
+
+.veggis {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+.veggis .veggis-box {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.veggis .veggis-box .veggis-image {
+    width: 12%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 15px;
+}
+
+.hotels {
+    width: 100%;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hotels .hotels-box {
+    width: 80%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.hotels .hotels-box .hotels-image {
+    width: 18%;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 45px;
+
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner .banner-box {
+    width: 80%;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.banner .banner-box .banner-image {
+    width: 80%;
+    height: 490px;
+
+}
+
+.banner-image img {
+    height: 100%;
+    width: 125%;
+}
+.cities{
+    width:90%;
+    height:350px;
+    margin:auto;
+}
+.cities h2{margin:0; padding:0;}
+.cities-loc{width:23%; height:70px; margin:4px; float:left; text-align: center;  border:#ccc 1px solid; border-radius: 10px;}
+
+.grocery{
+    width:90%;
+    height:350px;
+    margin:auto;
+}
+.grocery h2{margin:0; padding:0;}
+.gro{width:23%; height:70px; margin:4px; float:left; text-align: center;  border:#ccc 1px solid; border-radius: 10px;}
+
+.footer{
+    width:100%;
+    height:600px;
+    background-color: rgb(240 240 245);
+}
+.foot{width:80%; height:500px;  margin:auto; }
+.box{width:18%; height:480px; margin:9px; float:left;}
+.box img{width:90%;}
+.box ul li{list-style: none;}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(236, 96, 8);
+
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(236, 96, 8);
+
+}
+
+.navbar .navbar-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.navbar .navbar-left img {
+    width: 70%;
+    margin: 10px;
+}
+
+.navbar .navbar-right {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(236, 96, 8);
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-right .words {
+    width: auto;
+    height: 80px;
+    background-color: rgb(236, 96, 8);
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(236, 96, 8);
+}
+
+.search .text1 {
+    width: 180px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.search .text2 {
+    width: 180px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.search .heading {
+    width: 85%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin: 90px;
+}
+
+.search .search-bar {
+    float: right;
+    margin-right: 35%;
+}
+
+.promo {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(236, 96, 8);
+
+}
+
+.promo-box {
+    width: 30%;
+    height: 320px;
+    background-color: rgb(236, 96, 8);
+    float: left;
+    margin: 18px;
+}
+
+.promo-box img {
+    width: 100%;
+
+}
+
+.others {
+    display: none;
+}
+
+/* mobile view */
+@media (max-width:480px) {
+    .header {
+        width: 100%;
+        height: 800px;
+        background-color: rgb(236, 96, 8);
+    }
+}
